@@ -9,7 +9,7 @@ LOGS_ID =-1002471007722 # ID канала с оплатами
 
 RULES_LINK = "https://t.me/+jjKp555LFMQwMzk6" # Ссылка на канал с правиламиW
 NEWS_LINK = "https://t.me/+XMqQOXlm5s4yYTFi" # Ссылка на новостной канал
-OWNER_LINK = "123" # Ссылка на владельца/поддержку
-PEREHOD_LINK = "https://t.me/n1ce_Tag" # Ссылка на переходник
+OWNER_LINK = "https://t.me/n1ce_Tag" # Ссылка на владельца/поддержку
+PEREHOD_LINK = "https://t.me/+w9v0r9wB-f82ZmMy" # Ссылка на переходник
 BETS_LINK = "https://t.me/+Wg5jVwo-MB81OGNi" # Ссылка на канал ставок
 CASINO_NAME = "CryptoHub" # Название казино
