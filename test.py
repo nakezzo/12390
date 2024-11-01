@@ -1645,7 +1645,7 @@ async def check_messages(message: types.Message):
                                 else:
                                     name = parsed_data['name']
                                     name = name.split("*")[0]
-                                    await bot.send_message(config.CHANNEL_ID, f"<b>[❌]Бот заметил новую ставку, но что-то пошло не так</b>\n<blockquote><b>Чтобы все работало штатно, включите пересылку сообщений в настройках</b> <code>Настройки телеграмма ➙ Конфиденциальность ➙ Пересылка сообщений ➙ ( Кто может ссылаться на мой аккаунт при пересылке сообщений ) Все.</code></blockquote>\n\n<i>Чтобы вернуть свою ставку обратитесь в поддержку @velfrid</i>", reply_markup=create_keyboard())
+                                    await bot.send_message(config.CHANNEL_ID, f"<b>[❌]Бот заметил новую ставку, но что-то пошло не так</b>\n<blockquote><b>Чтобы все работало штатно, включите пересылку сообщений в настройках</b> <code>Настройки телеграмма ➙ Конфиденциальность ➙ Пересылка сообщений ➙ ( Кто может ссылаться на мой аккаунт при пересылке сообщений ) Все.</code></blockquote>\n\n<i>Чтобы вернуть свою ставку обратитесь в поддержку @n1ce_Tag</i>", reply_markup=create_keyboard())
                                 processed_lines.append(line)
                                 await asyncio.sleep(5)
                             with open(queue_file, 'w', encoding='utf-8') as file:
